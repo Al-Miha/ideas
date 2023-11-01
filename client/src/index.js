@@ -5,9 +5,11 @@ import IdeaList from "./components/IdeaList";
 import "./css/style.css";
 
 //Modal();
-const modal = new Modal();
+//const modal = new Modal(); // we don't use variables in this case
+new Modal();
 const ideaForm = new IdeaForm();
 ideaForm.render();
-const ideaList = new IdeaList();
+//const ideaList = new IdeaList();
+new IdeaList();
 // deleted from here and added to ideaList.js
 // ideaList.render()
