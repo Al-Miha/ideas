@@ -9,4 +9,5 @@ const modal = new Modal();
 const ideaForm = new IdeaForm();
 ideaForm.render();
 const ideaList = new IdeaList();
-ideaList.render();
+// deleted from here and added to ideaList.js
+// ideaList.render()
